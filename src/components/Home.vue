@@ -62,6 +62,7 @@
         uniuqe events.</span
       >
     </p>
+  </div>
 </template>
 
 <script>

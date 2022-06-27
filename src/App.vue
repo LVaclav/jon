@@ -17,7 +17,7 @@
   </nav>
 
   <div v-show="caroselState">
-    <DemoCarosel></DemoCarosel>
+    <Home></Home>
   </div>
 
   <div v-show="aboutState">
@@ -30,14 +30,14 @@
 </template>
 
 <script>
-import DemoCarosel from "./components/DemoCarosel.vue";
+import Home from "./components/Home.vue";
 import AboutBlock from "./components/AboutBlock.vue";
 import bookingBlock from "./components/bookingBlock.vue";
 
 export default {
   name: "app",
   components: {
-    DemoCarosel,
+    Home,
     AboutBlock,
     bookingBlock,
   },
