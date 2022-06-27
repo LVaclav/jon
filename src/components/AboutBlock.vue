@@ -18,7 +18,7 @@
         <div class="row">
           <img
             class="col-sm-4 img-fluid"
-            :src="'/img/' + bio.src"
+            :src="bio.src"
             :alt="bio.photoAlt"
             style="height: 100%"
           />
@@ -43,14 +43,14 @@ export default {
       bios: [
         {
           name: "Jon Copson",
-          src: "jon.dc8d3077.png",
+          src: "https://i.ibb.co/XF83jQP/jon-dc8d3077.png",
           photoAlt: "Jon Pfp",
           paragraph:
             "Jon Copson is our lead cinamatographer. With years of film expiernce and media oriented education, he brings a creative and cinamtic look to your event. He is passioante about his work and your needs.",
         },
         {
           name: "Jason Baker",
-          src: "jason.36f02c26.jpg",
+          src: "https://i.ibb.co/31mHmQt/jason-36f02c26.jpg",
           photoAlt: "Jason PFP",
           paragraph:
             "Jason baker is the backbone of your next production. A mind of planning, and years of industry expiernce make him the perfect guy to fuel your next cinematic adventure.",
